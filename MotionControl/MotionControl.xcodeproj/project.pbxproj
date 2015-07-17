@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E7364FA31B58ED550066632C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7364FA21B58ED550066632C /* AppDelegate.swift */; };
-		E7364FA51B58ED550066632C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7364FA41B58ED550066632C /* ViewController.swift */; };
+		E7364FA51B58ED550066632C /* ChannelStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7364FA41B58ED550066632C /* ChannelStripViewController.swift */; };
 		E7364FA71B58ED550066632C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7364FA61B58ED550066632C /* Images.xcassets */; };
 		E7364FAA1B58ED550066632C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7364FA81B58ED550066632C /* Main.storyboard */; };
 		E7364FB61B58ED550066632C /* MotionControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7364FB51B58ED550066632C /* MotionControlTests.swift */; };
+		E7364FC01B58F1190066632C /* ChannelCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7364FBF1B58F1190066632C /* ChannelCellView.swift */; };
+		E7364FC21B58F4450066632C /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7364FC11B58F4450066632C /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +30,14 @@
 		E7364F9D1B58ED550066632C /* MotionControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7364FA11B58ED550066632C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7364FA21B58ED550066632C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7364FA41B58ED550066632C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7364FA41B58ED550066632C /* ChannelStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelStripViewController.swift; sourceTree = "<group>"; };
 		E7364FA61B58ED550066632C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E7364FA91B58ED550066632C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7364FAF1B58ED550066632C /* MotionControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7364FB41B58ED550066632C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7364FB51B58ED550066632C /* MotionControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionControlTests.swift; sourceTree = "<group>"; };
+		E7364FBF1B58F1190066632C /* ChannelCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelCellView.swift; sourceTree = "<group>"; };
+		E7364FC11B58F4450066632C /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				E7364FA21B58ED550066632C /* AppDelegate.swift */,
-				E7364FA41B58ED550066632C /* ViewController.swift */,
+				E7364FC11B58F4450066632C /* Channel.swift */,
+				E7364FA41B58ED550066632C /* ChannelStripViewController.swift */,
+				E7364FBF1B58F1190066632C /* ChannelCellView.swift */,
 				E7364FA61B58ED550066632C /* Images.xcassets */,
 				E7364FA81B58ED550066632C /* Main.storyboard */,
 				E7364FA01B58ED550066632C /* Supporting Files */,
@@ -208,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7364FA51B58ED550066632C /* ViewController.swift in Sources */,
+				E7364FA51B58ED550066632C /* ChannelStripViewController.swift in Sources */,
+				E7364FC21B58F4450066632C /* Channel.swift in Sources */,
+				E7364FC01B58F1190066632C /* ChannelCellView.swift in Sources */,
 				E7364FA31B58ED550066632C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
